@@ -1,0 +1,15 @@
+import java.util.*;
+import java.util.Arrays;
+class BinarySearchExample
+{
+public static void main(String args[])
+{
+int arr[] = {10,20,30,40,50};
+int key = 30;
+int result = Arrays.binarysearch(arr,key);
+if(result<0)
+system.out.println(“Element is not found”);
+else
+system.out.println(“Element is found at index:”+result);
+}
+}
