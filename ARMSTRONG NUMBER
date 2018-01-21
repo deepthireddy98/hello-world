@@ -1,0 +1,24 @@
+import java.util.*;
+Class ArmstrongExample
+{
+Public static void main(String args[]) 
+{
+Int c=0,a,temp;
+Int n=153;
+Temp=n;
+While(n>0)
+{
+a=n%10;
+n=n/10;
+c=c+(a*a*a);
+}
+If(temp==a)
+{
+System.out.println(“Armstrong number”);
+}
+Else
+{
+System.out.println(“not an armtrong number”);
+}
+}
+}
