@@ -1,0 +1,17 @@
+import java.util.*;
+public class LargestInArrayExample
+{
+public static int getLargest (Integer [] a, int total);
+{
+list<Integer>list=Arrays.asList;
+collections. sort (list);
+int element= list. get (total-1);
+return element;
+}
+public static void main(String args[])
+integer a[] ={1,2,3,5,7,9};
+intrger b[]= {10,22,33,44,55,77,99};
+system.out.println(“Largest”+ getLargest(a,6));
+system.out.println(“Largest”+ getLargest(b,7));
+}
+}
