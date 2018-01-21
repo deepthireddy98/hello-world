@@ -1,0 +1,14 @@
+import java.util.*;
+1.	import java.util.*;  
+2.	class TestCollection1{  
+3.	 public static void main(String args[]){  
+4.	  ArrayList<String> list=new ArrayList<String>();//Creating arraylist  
+5.	  list.add("Ravi");//Adding object in arraylist  
+6.	  list.add("Vijay");  
+7.	  list.add("Ravi");  
+8.	  list.add("Ajay");  
+9.	  //Traversing list through Iterator  
+10.	  Iterator itr=list.iterator();  
+11.	  while(itr.hasNext()){  
+12.	   System.out.println(itr.next());  
+13.	  }  
